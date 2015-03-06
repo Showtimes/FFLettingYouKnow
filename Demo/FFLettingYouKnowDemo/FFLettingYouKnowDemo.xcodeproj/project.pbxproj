@@ -18,6 +18,7 @@
 		693FF5111AAA2F3F00C4B67B /* FFAlertClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 693FF50E1AAA2F3F00C4B67B /* FFAlertClient.m */; };
 		693FF5161AAA2F5900C4B67B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693FF5141AAA2F5900C4B67B /* MainViewController.m */; };
 		693FF5171AAA2F5900C4B67B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 693FF5151AAA2F5900C4B67B /* MainViewController.xib */; };
+		69D578011AAA703B000740EA /* UIApplication+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D578001AAA703B000740EA /* UIApplication+Navigation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		693FF5131AAA2F5900C4B67B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		693FF5141AAA2F5900C4B67B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		693FF5151AAA2F5900C4B67B /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		69D577FF1AAA703B000740EA /* UIApplication+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Navigation.h"; sourceTree = "<group>"; };
+		69D578001AAA703B000740EA /* UIApplication+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Navigation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +155,8 @@
 		693FF50A1AAA2F3F00C4B67B /* FFLettingYouKnow */ = {
 			isa = PBXGroup;
 			children = (
+				69D577FF1AAA703B000740EA /* UIApplication+Navigation.h */,
+				69D578001AAA703B000740EA /* UIApplication+Navigation.m */,
 				693FF50B1AAA2F3F00C4B67B /* FFAlertButton.h */,
 				693FF50C1AAA2F3F00C4B67B /* FFAlertButton.m */,
 				693FF50D1AAA2F3F00C4B67B /* FFAlertClient.h */,
@@ -278,6 +283,7 @@
 				693FF4EA1AAA2EDC00C4B67B /* ViewController.m in Sources */,
 				693FF4E71AAA2EDC00C4B67B /* AppDelegate.m in Sources */,
 				693FF5101AAA2F3F00C4B67B /* FFAlertButton.m in Sources */,
+				69D578011AAA703B000740EA /* UIApplication+Navigation.m in Sources */,
 				693FF4E41AAA2EDC00C4B67B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,6 +477,7 @@
 				693FF5031AAA2EDD00C4B67B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		693FF5041AAA2EDD00C4B67B /* Build configuration list for PBXNativeTarget "FFLettingYouKnowDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +486,7 @@
 				693FF5061AAA2EDD00C4B67B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
