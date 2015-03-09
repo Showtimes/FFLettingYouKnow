@@ -42,6 +42,7 @@
     dispatch_once(&onceToken, ^
     {
         alertClient = [[FFAlertClient alloc] init];
+        [alertClient resetSettings];
     });
     
     return alertClient;
@@ -72,7 +73,7 @@
     return alertClient;
 }
 
-+ (instancetype)sharedAlertClientWithImplicitCancelAndTitle:(NSString *)title message:(NSString *)message andSecondButtonTitle:(NSString *)secondButtonTitle withSecondButtonHandler:(void (^)(void))tapHandler
++ (instancetype)sharedAlertClientWithImplicitCancelAndTitle:(NSString *)title message:(NSString *)message andSecondButtonTitle:(NSString *)secondButtonTitle withSecondButtonHandler:(void (^)(void))secondButtonHandler
 {
     FFAlertClient *alertClient = [self sharedAlertClient];
     
@@ -84,9 +85,9 @@
     
     FFAlertButton *secondButton = [[FFAlertButton alloc] initWithTitle:secondButtonTitle tapHandler:^
     {
-        if(tapHandler)
+        if(secondButtonHandler)
         {
-            tapHandler();
+            secondButtonHandler();
         }
     }];
     

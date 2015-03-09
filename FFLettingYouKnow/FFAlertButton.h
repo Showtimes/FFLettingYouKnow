@@ -16,6 +16,9 @@
 
 - (instancetype)initWithTitle:(NSString *)title tapHandler:(void (^)(void))tapHandler;
 
+/**
+ Simulates tap on the button.
+ */
 - (void)performTapHandler;
 
 @end
