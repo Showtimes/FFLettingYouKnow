@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "FFLettingYouKnow.h"
 @interface ViewController ()
 
 @end
@@ -22,6 +22,33 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)pop1 {
+    [[FFAlertClient sharedAlertClientWithImplicitCancelAndTitle:@"Test"
+                                                       message:@"This is a message talking about what we need to be doing."
+                                          andSecondButtonTitle:@"this is a second button title"
+                                       withSecondButtonHandler:^{
+                                           NSLog(@"second BUTTON PRESSED");
+                                       }] showWithCompletion:nil];
+}
+
+- (IBAction)pop2 {
+}
+
+- (IBAction)pop3 {
+}
+
+- (IBAction)pop4 {
+}
+
+- (IBAction)pop5 {
+}
+
+- (IBAction)pop6 {
+}
+
+- (IBAction)pop7 {
 }
 
 @end
