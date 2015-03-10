@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A041B5C1AAF419E00E95F26 /* FFAlertButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A041B581AAF419E00E95F26 /* FFAlertButton.m */; };
+		1A041B5D1AAF419E00E95F26 /* FFAlertClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A041B5A1AAF419E00E95F26 /* FFAlertClient.m */; };
 		693FF4E41AAA2EDC00C4B67B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 693FF4E31AAA2EDC00C4B67B /* main.m */; };
 		693FF4E71AAA2EDC00C4B67B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 693FF4E61AAA2EDC00C4B67B /* AppDelegate.m */; };
 		693FF4EA1AAA2EDC00C4B67B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693FF4E91AAA2EDC00C4B67B /* ViewController.m */; };
@@ -14,11 +16,8 @@
 		693FF4EF1AAA2EDD00C4B67B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 693FF4EE1AAA2EDD00C4B67B /* Images.xcassets */; };
 		693FF4F21AAA2EDD00C4B67B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 693FF4F01AAA2EDD00C4B67B /* LaunchScreen.xib */; };
 		693FF4FE1AAA2EDD00C4B67B /* FFLettingYouKnowDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 693FF4FD1AAA2EDD00C4B67B /* FFLettingYouKnowDemoTests.m */; };
-		693FF5101AAA2F3F00C4B67B /* FFAlertButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 693FF50C1AAA2F3F00C4B67B /* FFAlertButton.m */; };
-		693FF5111AAA2F3F00C4B67B /* FFAlertClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 693FF50E1AAA2F3F00C4B67B /* FFAlertClient.m */; };
 		693FF5161AAA2F5900C4B67B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693FF5141AAA2F5900C4B67B /* MainViewController.m */; };
 		693FF5171AAA2F5900C4B67B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 693FF5151AAA2F5900C4B67B /* MainViewController.xib */; };
-		69D578011AAA703B000740EA /* UIApplication+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D578001AAA703B000740EA /* UIApplication+Navigation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A041B571AAF419E00E95F26 /* FFAlertButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFAlertButton.h; sourceTree = "<group>"; };
+		1A041B581AAF419E00E95F26 /* FFAlertButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFAlertButton.m; sourceTree = "<group>"; };
+		1A041B591AAF419E00E95F26 /* FFAlertClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFAlertClient.h; sourceTree = "<group>"; };
+		1A041B5A1AAF419E00E95F26 /* FFAlertClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFAlertClient.m; sourceTree = "<group>"; };
+		1A041B5B1AAF419E00E95F26 /* FFLettingYouKnow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFLettingYouKnow.h; sourceTree = "<group>"; };
 		693FF4DE1AAA2EDC00C4B67B /* FFLettingYouKnowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFLettingYouKnowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		693FF4E21AAA2EDC00C4B67B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		693FF4E31AAA2EDC00C4B67B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,16 +49,9 @@
 		693FF4F71AAA2EDD00C4B67B /* FFLettingYouKnowDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFLettingYouKnowDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		693FF4FC1AAA2EDD00C4B67B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		693FF4FD1AAA2EDD00C4B67B /* FFLettingYouKnowDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFLettingYouKnowDemoTests.m; sourceTree = "<group>"; };
-		693FF50B1AAA2F3F00C4B67B /* FFAlertButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFAlertButton.h; sourceTree = "<group>"; };
-		693FF50C1AAA2F3F00C4B67B /* FFAlertButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFAlertButton.m; sourceTree = "<group>"; };
-		693FF50D1AAA2F3F00C4B67B /* FFAlertClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFAlertClient.h; sourceTree = "<group>"; };
-		693FF50E1AAA2F3F00C4B67B /* FFAlertClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFAlertClient.m; sourceTree = "<group>"; };
-		693FF50F1AAA2F3F00C4B67B /* FFLettingYouKnow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFLettingYouKnow.h; sourceTree = "<group>"; };
 		693FF5131AAA2F5900C4B67B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		693FF5141AAA2F5900C4B67B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		693FF5151AAA2F5900C4B67B /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		69D577FF1AAA703B000740EA /* UIApplication+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Navigation.h"; sourceTree = "<group>"; };
-		69D578001AAA703B000740EA /* UIApplication+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Navigation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +93,11 @@
 		693FF4E01AAA2EDC00C4B67B /* FFLettingYouKnowDemo */ = {
 			isa = PBXGroup;
 			children = (
-				693FF5081AAA2F3400C4B67B /* Libraries */,
+				1A041B571AAF419E00E95F26 /* FFAlertButton.h */,
+				1A041B581AAF419E00E95F26 /* FFAlertButton.m */,
+				1A041B591AAF419E00E95F26 /* FFAlertClient.h */,
+				1A041B5A1AAF419E00E95F26 /* FFAlertClient.m */,
+				1A041B5B1AAF419E00E95F26 /* FFLettingYouKnow.h */,
 				693FF5091AAA2F3400C4B67B /* ViewControllers */,
 				693FF4E51AAA2EDC00C4B67B /* AppDelegate.h */,
 				693FF4E61AAA2EDC00C4B67B /* AppDelegate.m */,
@@ -136,35 +137,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		693FF5081AAA2F3400C4B67B /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				693FF50A1AAA2F3F00C4B67B /* FFLettingYouKnow */,
-			);
-			path = Libraries;
-			sourceTree = "<group>";
-		};
 		693FF5091AAA2F3400C4B67B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				693FF5121AAA2F4B00C4B67B /* Main */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		693FF50A1AAA2F3F00C4B67B /* FFLettingYouKnow */ = {
-			isa = PBXGroup;
-			children = (
-				69D577FF1AAA703B000740EA /* UIApplication+Navigation.h */,
-				69D578001AAA703B000740EA /* UIApplication+Navigation.m */,
-				693FF50B1AAA2F3F00C4B67B /* FFAlertButton.h */,
-				693FF50C1AAA2F3F00C4B67B /* FFAlertButton.m */,
-				693FF50D1AAA2F3F00C4B67B /* FFAlertClient.h */,
-				693FF50E1AAA2F3F00C4B67B /* FFAlertClient.m */,
-				693FF50F1AAA2F3F00C4B67B /* FFLettingYouKnow.h */,
-			);
-			name = FFLettingYouKnow;
-			path = ../../../../FFLettingYouKnow;
 			sourceTree = "<group>";
 		};
 		693FF5121AAA2F4B00C4B67B /* Main */ = {
@@ -278,12 +256,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				693FF5111AAA2F3F00C4B67B /* FFAlertClient.m in Sources */,
 				693FF5161AAA2F5900C4B67B /* MainViewController.m in Sources */,
+				1A041B5C1AAF419E00E95F26 /* FFAlertButton.m in Sources */,
 				693FF4EA1AAA2EDC00C4B67B /* ViewController.m in Sources */,
 				693FF4E71AAA2EDC00C4B67B /* AppDelegate.m in Sources */,
-				693FF5101AAA2F3F00C4B67B /* FFAlertButton.m in Sources */,
-				69D578011AAA703B000740EA /* UIApplication+Navigation.m in Sources */,
+				1A041B5D1AAF419E00E95F26 /* FFAlertClient.m in Sources */,
 				693FF4E41AAA2EDC00C4B67B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
