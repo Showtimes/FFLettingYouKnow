@@ -11,5 +11,6 @@
 
 #import "FFAlertClient.h"
 #import "FFAlertButton.h"
+#import "UIApplication+Navigation.h"
 
 #endif
