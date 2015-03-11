@@ -17,12 +17,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZCN-MO-QpS">
-                                <rect key="frame" x="277" y="40" width="46" height="30"/>
+                                <rect key="frame" x="249" y="40" width="102" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="46" id="1ae-tc-RZj"/>
+                                    <constraint firstAttribute="width" constant="102" id="1ae-tc-RZj"/>
                                     <constraint firstAttribute="height" constant="30" id="PL0-je-v9A"/>
                                 </constraints>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Basic be Basic">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -30,12 +30,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uZl-9V-gGb">
-                                <rect key="frame" x="277" y="78" width="46" height="30"/>
+                                <rect key="frame" x="261" y="78" width="79" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="46" id="RbC-IQ-0ph"/>
+                                    <constraint firstAttribute="width" constant="79" id="RbC-IQ-0ph"/>
                                     <constraint firstAttribute="height" constant="30" id="TEc-Be-V48"/>
                                 </constraints>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Two be two">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -43,12 +43,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5tw-8v-1tK">
-                                <rect key="frame" x="277" y="116" width="46" height="30"/>
+                                <rect key="frame" x="246" y="116" width="109" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="46" id="Ubd-Ln-LTN"/>
+                                    <constraint firstAttribute="width" constant="109" id="Ubd-Ln-LTN"/>
                                     <constraint firstAttribute="height" constant="30" id="YTG-Oa-c5j"/>
                                 </constraints>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="No handle bars ">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -56,19 +56,19 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCc-A9-TWg">
-                                <rect key="frame" x="277" y="154" width="46" height="30"/>
+                                <rect key="frame" x="275" y="154" width="51" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="46" id="GJr-A2-yFS"/>
+                                    <constraint firstAttribute="width" constant="51" id="GJr-A2-yFS"/>
                                     <constraint firstAttribute="height" constant="30" id="fpB-gg-egA"/>
                                 </constraints>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Fourski">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="pop4" destination="BYZ-38-t0r" eventType="touchUpInside" id="thf-2i-EsG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6F-c3-99Y">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6F-c3-99Y">
                                 <rect key="frame" x="277" y="192" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="37c-AN-hym"/>
@@ -81,7 +81,7 @@
                                     <action selector="pop5" destination="BYZ-38-t0r" eventType="touchUpInside" id="OTB-zs-sHZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ggy-Jq-vaF">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ggy-Jq-vaF">
                                 <rect key="frame" x="277" y="230" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="UEe-e1-HZV"/>
@@ -94,7 +94,7 @@
                                     <action selector="pop6" destination="BYZ-38-t0r" eventType="touchUpInside" id="hWh-ND-WVo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fq9-4L-muW">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fq9-4L-muW">
                                 <rect key="frame" x="277" y="268" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Jj3-aB-AlG"/>
