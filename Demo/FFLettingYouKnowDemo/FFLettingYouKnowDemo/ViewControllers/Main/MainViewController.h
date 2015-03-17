@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "FFLettingYouKnow.h"
 
-@interface MainViewController : UIViewController
+@interface MainViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
 @end
