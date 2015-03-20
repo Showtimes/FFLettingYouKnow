@@ -1,6 +1,6 @@
 # FFLettingYouKnow
 
-`FFLettingYouKnow` is a library for those developers who want to support `UIAlertView` for iOS 7 and `UIAlertController` for iOS 8 in the same project. This library is an easy-to-use wrapper for those two classes. `FFLettingYouKnow` uses appropriate alert class depending on system version automatically.
+`FFLettingYouKnow` is a library for developers who want to support `UIAlertView` in iOS 7 and `UIAlertController` in iOS 8 without making separate, conditional calls for separate iOS versions; one call, that's all. This library is an easy-to-use wrapper for those two classes, abstracting away all such iOS version conditionalization. `FFLettingYouKnow` uses appropriate alert class depending on system version automatically.
 
 *How to Use*
 
